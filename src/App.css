@@ -530,3 +530,22 @@ input {
     height: 38vh;
   }
 }
+@media only screen and (max-width: 400px) {
+  .card {
+    margin-left: 25px;
+    margin-top: 9%;
+  }
+
+  .card-container {
+    margin-top: 10px;
+    margin-left: 13%;
+  }
+  .name-div,
+  .email-div {
+    margin-left: -10px;
+  }
+  input {
+    width: 50%;
+    margin-left: -12px;
+  }
+}
